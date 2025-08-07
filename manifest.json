@@ -1,7 +1,7 @@
 {
     "name": "Easy Color Grabber - Smart Color Picker",
     "version": "1.0",
-    "description": "Instantly capture, convert, and copy colors from any webpage. Easy Color Grabber provides HEX, RGB, and HSL values with one click, plus a color history for your workflow.",
+    "description": "Instantly capture, convert, and copy colors from any webpage with one click, plus a color history for your workflow.",
     "manifest_version": 3,
     "action": {
         "default_popup": "popup.html",
