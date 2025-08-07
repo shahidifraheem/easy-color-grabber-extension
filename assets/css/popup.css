@@ -1,0 +1,146 @@
+@font-face {
+  font-family: "Gotham";
+  src: url("../fonts/GothamMedium.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+* {
+  font-family: "Gotham";
+  box-sizing: border-box;
+  margin: 0;
+}
+
+:root {
+  --primary-color: rgba(25, 133, 224, 1);
+  --secondary-color: rgba(70, 183, 146, 1);
+  --tertiary-color: rgba(255, 210, 58, 1);
+  --white-color: white;
+  --black-color: black;
+}
+
+body {
+  width: 320px;
+  padding: 20px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+h1 {
+  margin: 0;
+  font-size: 18px;
+  color: #333;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+button {
+  padding: 12px;
+  background: var(--primary-color);
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 500;
+  color: var(--white-color);
+  transition: 0.3s;
+}
+
+button:hover {
+  background: var(--secondary-color);
+}
+
+#pickColor{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  width: 150px;
+  margin: 0 auto;
+}
+
+.color-display {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  justify-content: space-between;
+  margin: 10px 0;
+}
+
+#colorPreview {
+  width: 50px;
+  height: 60px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.color-values {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  font-size: 12px;
+}
+
+.copy-btn {
+  padding: 2px 5px;
+  font-size: 10px;
+  background: #f0f0f0;
+  color: #333;
+  border: 1px solid #ddd;
+  border-radius: 3px;
+  cursor: pointer;
+  margin-left: auto;
+}
+
+.copy-btn:hover {
+  background: #e0e0e0;
+}
+
+.copy-btn.copied {
+  background: var(--tertiary-color);
+  color: white;
+  border-color: var(--tertiary-color);
+}
+
+h3{
+  margin-bottom: 10px;
+}
+
+#colorHistory {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+}
+
+.color-swatch {
+  width: 20px;
+  height: 20px;
+  border: 1px solid #ddd;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.color-format {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 12px;
+}
+
+.color-format span{
+  user-select: all;
+}
+
+.color-values span {
+  transition: all 0.3s ease;
+}
+
+#hexValue.copied {
+  color: var(--secondary-color);
+  font-weight: bold;
+}
