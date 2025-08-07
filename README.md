@@ -28,7 +28,7 @@ Easy Color Grabber is a simple yet powerful color picker extension for Chrome th
 
 ## Privacy Policy
 
-Easy Color Grabber does not collect any personal data. All color data is stored locally in your browser. See the full [Privacy Policy](privacy-policy.html).
+Easy Color Grabber does not collect any personal data. All color data is stored locally in your browser. See the full [Privacy Policy](https://shahidifraheem.github.io/easy-color-grabber-extension/privacy-policy.html).
 
 ---
 
