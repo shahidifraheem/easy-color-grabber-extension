@@ -139,3 +139,7 @@ document.querySelectorAll('.copy-btn').forEach(btn => {
 
 // Initialize
 renderHistory();
+
+document.getElementById("explore-btn").addEventListener("click", () => {
+    chrome.tabs.create({ url: "https://codersship.com/" });
+});
